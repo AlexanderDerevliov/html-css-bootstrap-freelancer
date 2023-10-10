@@ -4,7 +4,32 @@ img {
     max-width: 100%;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style-type: none;
+}
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+i {
+    padding: 0 .3rem;
+}
+input:focus-visible {
+    outline: none; 
+}
+
+.ms_form {
+    border-top: 0;
+    border-left: 0;  
+    border-right: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
 
 /* HEADER/NAVIGATION */
 .navigation {
@@ -20,21 +45,57 @@ img {
 .ms_hero {
     width: 100%;
     min-height: 150px;
-    background-color: rgb(8, 224, 224);
+    background-color: rgb(19, 186, 155);
+    color: white;
 }
 
-.wrapper-big {
-    width: 95%;
+
+
+/* MY STYLE  */
+.ms_wrapper-big {
+    width: 85%;
     margin: 3rem auto;
     
 }
 
-
-
-
-.card {
-    border: none;
+.ms_wrapper-small {
+    width: 75%;
+    min-height: 150px;
+    margin: 0 auto;
 }
+
+.ms_btn {
+    border: .5px solid white;
+    color: white;
+}
+
+.ms_container-footer-up {
+    width: 100%;
+    background-color:rgb(11, 47, 92);
+    color: white;
+    min-height: 300px;
+}
+
+.ms_list li {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    line-height: 60px;
+    font-size: 1.5rem;
+    margin: .4rem;
+}
+
+/* STYLE CHANGE BOOSTRAP */
+.container-sm img {
+    width: 150px;
+}
+
+.card img {
+    border-radius: .375rem;
+}
+
 
 
                                             
