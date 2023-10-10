@@ -17,15 +17,10 @@ img {
 
 /* HERO */
 
-.hero {
+.ms_hero {
     width: 100%;
-    min-height: 300px;
+    min-height: 150px;
     background-color: rgb(8, 224, 224);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 0;
 }
 
 .wrapper-big {
@@ -37,11 +32,9 @@ img {
 
 
 
+.card {
+    border: none;
+}
 
 
-/* debug */
-.col-12
-   {
-    border-radius: 10px;
-    border: 1px solid black;
-   }
+                                            
