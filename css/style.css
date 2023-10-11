@@ -20,7 +20,11 @@ i {
     padding: 0 .3rem;
 }
 input:focus-visible {
-    outline: none; 
+    outline: none;    
+}
+
+.form-control:focus {
+    box-shadow: none;
 }
 
 .ms_form {
@@ -54,7 +58,10 @@ header{
     color: white;
 }
 
-
+.ms_container {
+    background-color: rgb(19, 186, 155);
+    color: white;
+}
 
 /* MY STYLE  */
 .ms_wrapper-big {
