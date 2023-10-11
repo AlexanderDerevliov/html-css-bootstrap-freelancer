@@ -77,7 +77,6 @@ nav{
     width: 100%;
     background-color:rgb(11, 47, 92);
     color: white;
-    min-height: 300px;
 }
 
 .ms_footer-down {
@@ -95,6 +94,11 @@ nav{
     line-height: 30px;
     font-size: 1.1rem;
     margin: .1rem;
+    
+}
+
+ul {
+    padding: 0;
 }
 
 /* STYLE CHANGE BOOSTRAP */
@@ -106,6 +110,3 @@ nav{
     border-radius: .375rem;
 }
 
-
-
-                                            
